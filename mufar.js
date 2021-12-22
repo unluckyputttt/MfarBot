@@ -323,7 +323,7 @@ const sendButImage = async (from, context, fortext, img, but, mek) => {
 
 const xrtz = { 
 "title": `Hallo ${pushname}`,
-"body": `Xrutz`, 
+"body": `Putbotz`, 
 "mediaType": "2", 
 "mediaUrl": "https://youtu.be/ilrhJV_QMIE", 
 "thumbnail": fs.readFileSync('./src/Mufar.jpg')
@@ -443,7 +443,7 @@ if (budy.length > 3500) {
 if (!isGroup) return
 if (!isAntiVirtex) return
 if (isGroupAdmins) return
-reply('*Xrutz Official*\n'.repeat(300))
+reply('*Putbotz Official*\n'.repeat(300))
 reply(`「 *VIRUS DETECTOR* 」\n\n*Kamu mengirimkan Virtex, Maaf kamu akan di Kick!*`)
 console.log(color('[KICK]', 'red'), color('Received a virus text!', 'yellow'))
 Mufar.groupRemove(from, [sender])
@@ -742,7 +742,7 @@ menuk =`${tampilUcapan}, ${pushname}
 *Mode Type : ${publik ? 'Public' : 'Self'} Bot*
 
 *• About Owner*
-Youtube : Xrutz Official
+Instagram : unluckyputttt
 No Whatsapp : @${owner}
 
 *• User Info :*
@@ -750,14 +750,14 @@ Status : ${isOwner ? 'Owner' : 'Gratisan'}
 UserName : ${pushname}
 Nomor : ${sender.split("@")[0]}
 
-*• XrutzBot Stats :*
+• 𝑃𝑢𝑡𝑏𝑜𝑡𝑧 𝑆𝑡𝑎𝑡𝑠 :
 Name : ${botName}
 Creator : ${ownerName}
 Prefix : Multi Prefix
 Runtime : ${runtime(on)}`
 
 futer =`
-*X R U T Z B O T 濾*
+𝑃𝑢𝑡 𝑏𝑜𝑡𝑧
 ${week}, ${calender} 
 
 *• Random Menu :*
@@ -887,43 +887,42 @@ ${week}, ${calender}
 
 *• Nsfw Menu*
 106. ${prefix}loli
-107. ${prefix}hentai
-108. ${prefix}waifu
-109. ${prefix}husbu
-110. ${prefix}neko
+107. ${prefix}waifu
+108. ${prefix}husbu
+109. ${prefix}neko
 
 *• Limit Menu*
-111. ${prefix}buylimit
-112. ${prefix}toplimit
-113. ${prefix}topbalance
-114. ${prefix}ceklimit
-115. ${prefix}givelimit
+110. ${prefix}buylimit
+111. ${prefix}toplimit
+112. ${prefix}topbalance
+113. ${prefix}ceklimit
+114. ${prefix}givelimit
 
-*• Sticker Lucu* // by Xrutz
-116. ${prefix}stiklucu
-117. ${prefix}stiklucu2
-118. ${prefix}stiklucu3
-119. ${prefix}stiklucu4
-120. ${prefix}stiklucu5
-121. ${prefix}stiklucu6
-122. ${prefix}stiklucu7
-123. ${prefix}stiklucu8
-124. ${prefix}stiklucu9
-125. ${prefix}stiklucu10
+*• Sticker Lucu* // by 𝑝𝑢𝑡𝑧
+115. ${prefix}stiklucu
+116. ${prefix}stiklucu2
+117. ${prefix}stiklucu3
+118. ${prefix}stiklucu4
+119. ${prefix}stiklucu5
+120. ${prefix}stiklucu6
+121. ${prefix}stiklucu7
+122. ${prefix}stiklucu8
+122. ${prefix}stiklucu9
+124. ${prefix}stiklucu10
 
 *• Virtex Menu*
-126. ${prefix}virtex
-127. ${prefix}virtex2
-128. ${prefix}virtex3
+125. ${prefix}virtex
+126. ${prefix}virtex2
+127. ${prefix}virtex3
 
 *• New Feature*
-129. ${prefix}linkgroup
-130. ${prefix}patrick
-131. ${prefix}ppcouple
-132. ${prefix}antivirtex
-133. ${prefix}detikvn _reply vn_
+128. ${prefix}linkgroup
+129. ${prefix}patrick
+130. ${prefix}ppcouple
+131. ${prefix}antivirtex
+132. ${prefix}detikvn _reply vn
 
-*© Xrutz - Official Bot*
+𝑃𝑈𝑇𝐵𝑂𝑇𝑍
 Hitung Mundur Ramadhan :
 _${ramadhan.data.result}_, *Now : ${week}, ${calender}*`
 img = fs.readFileSync('./src/Mufar.jpg')
@@ -941,11 +940,11 @@ latensie = speed() - timestampe
 totalChat = await Mufar.chats.all()
 total = math(`${groups.length}*${privat.length}`)
 if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: fmen})
-nama = '𝗫𝗿𝘂𝘁𝘇 𝗢𝗳𝗳𝗶𝗰𝗶𝗮𝗹'
-ownerJid = "6283871990243@s.whatsapp.net"
+nama = '𝑃𝑢𝑡𝑏𝑜𝑡𝑧'
+ownerJid = "69147366955@s.whatsapp.net"
 			
-menunya = `⍟ ────────────────── ⍟
-X R U T Z B O T 右
+menunya = `⍟ ───────────────── ⍟
+𝑃𝑢𝑡 𝑏𝑜𝑡𝑧
 ${week}, ${calender}
 
 Group Chats : ${groups.length}
@@ -1018,8 +1017,8 @@ case 'command':
 if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: fmen})
 listMsg = {
 buttonText: 'PILIH DISINI',
-footerText: '*_© Xrutz - Official Bot_*',
-description: `${tampilUcapan} ${pushname}, *Hallo User @${sender.split('@')[0]}, Silahkan pilih menu Xrutz-Bot disini*`,
+footerText: '*_© Put - botz_*',
+description: `${tampilUcapan} ${pushname}, *Hallo User @${sender.split('@')[0]}, Silahkan pilih menu 𝑃𝑢𝑡𝑏𝑜𝑡𝑧 disini*`,
 sections: [
                  {
                  "title": `${week}, ${calender}`,
@@ -1058,7 +1057,7 @@ break
 
 case 'rulesbot':
 if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: fmen})
-ruls =`*Syarat & Ketentuan XrutzBot.ೃ🐣*
+ruls =`*Syarat & Ketentuan Putbotz.ೃ🐣*
 Harus di patuhi, Kalau tidak di Banned!
 
 1. Dilarang Toxic Ke Bot. 
@@ -1067,7 +1066,7 @@ Harus di patuhi, Kalau tidak di Banned!
 4. Dilarang Culik Bot ke Grup.
 
 Kalo sudah dipahami Rules nya
-*Silahkan lanjut gunakan Xrutz Bot!*`
+*Silahkan lanjut gunakan Put Bot!*`
 but = [{ buttonId: `${prefix}owner`, buttonText: { displayText: 'Chat Owner' }, type: 1 }]
 sendButton(from, ruls, faketeks, but, mek)
 limitAdd(sender, limit)
@@ -1104,7 +1103,7 @@ console.log(color('[ REGISTER ]', 'red'), color(time, 'yellow'), 'Serial:', colo
 break
 
 // Limit Menu
-// Made by Zeeone
+// Made by Putbotz
 case 'topbalance':
 if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: fmen})
 if (!isGroup)return reply(mess.only.group)
@@ -1193,7 +1192,7 @@ members_ids.push(mem.jid)
 }
             vcard2 = 'BEGIN:VCARD\n'
             + 'VERSION:3.0\n'
-            + `FN:Xrutz Official\n`
+            + `FN:Putbotz Official\n`
             + `ORG:Name YT : Xrutz Official;\n`
             + `TEL;type=CELL;type=VOICE;waid=${owner}:${owner}\n`
             + 'END:VCARD'.trim()
@@ -1320,8 +1319,8 @@ teksits = `*=> [ BIG THANKS TO ]*
  ❏ Zeeone Ofc
  ❏ All Creator Botz
 
-*_© Xrutz Official_*
-*[ SC : XRUTZ OFFICIAL ]*`
+*_© Put Official_*
+*[ SC : PUT OFFICIAL ]*`
 Mufar.sendMessage(from, thumb, image, {thumbnail:fs.readFileSync('./src/Tamnel.jpg'), quoted: floc, caption: teksits, forwardingScore: 1000, isForwarded: true })
 break
 
